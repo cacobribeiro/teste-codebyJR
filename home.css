@@ -40,7 +40,7 @@ body {
 }
 
 .categorie-title {
-  margin: 30px 50px;
+  margin: 20px 50px 55px;
 }
 .categories {
   padding-left: 20px;
@@ -80,7 +80,7 @@ body {
 }
 
 .category-card-0 {
-  width: 400px;
+  width: 430px;
   height: 400px;
   background-color: #cccccc;
   background-image: url('images/plants.png');
@@ -143,11 +143,35 @@ body {
 }
 
 .plans {
-  background-color: grey;
+  background-color: rgb(244, 244, 244);
   height: 700px;
-  width: 97%;
   margin: auto;
   padding: 10px;
+}
+
+.title-plan {
+  font-weight: 800;
+  font-size: 65px;
+  color: rgb(41, 40, 40);
+}
+
+.p-plan {
+  font-weight: 800;
+  font-size: 21px;
+  color: rgb(41, 40, 40);
+}
+
+.titles-plan {
+  float: left;
+  padding: 2px;
+  margin: 70px 10px -50px 90px;
+}
+
+/* // INICIO CSS PARA ÁREA DE PLANOS!!  */
+
+.container-main-plans {
+  margin: auto;
+  width: 97%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -156,33 +180,8 @@ body {
   align-items: flex-end;
 }
 
-.title-plan {
-  font-weight: 800;
-  font-size: 60px;
-  color: rgb(41, 40, 40);
-}
-
-.p-plan {
-  font-weight: 800;
-  font-size: 20px;
-  color: rgb(41, 40, 40);
-}
-
-.titles-plan {
-  float: left;
-  padding: 2px;
-  margin: 80px 80px;
-}
-
-/* // INICIO CSS PARA ÁREA DE PLANOS!!  */
-
-.container-main-plans {
-  display: flex;
-  justify-content: space-around;
-}
-
 .container-plans {
-  width: 13%;
+  max-width: 13%;
   display: flex;
   flex-direction: column;
   margin: 15px;
@@ -211,7 +210,7 @@ body {
 }
 
 .price {
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 800;
   color: white;
 }
