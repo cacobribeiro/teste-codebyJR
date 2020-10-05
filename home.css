@@ -13,9 +13,9 @@ body {
   background-size: 110%;
   display: flex;
   flex-direction: column;
-  width: 100%;
   height: 700px;
   justify-content: space-around;
+  width: 100%;
 }
 
 .logo {
@@ -25,18 +25,18 @@ body {
 
 .container-logos h1 {
   color: white;
-  width: 43%;
   font-size: 70px;
   font-weight: 900;
   text-align: center;
+  width: 43%;
 }
 
 .btn-seenow {
-  padding: 15px 90px;
-  margin-bottom: 40px;
-  text-decoration: none;
   border: none;
   font-weight: 800;
+  margin-bottom: 40px;
+  padding: 15px 90px;
+  text-decoration: none;
 }
 
 .categorie-title {
@@ -47,48 +47,48 @@ body {
 }
 
 .categorie-title h2 {
-  font-size: 60px;
   color: rgb(41, 40, 40);
+  font-size: 60px;
   font-weight: 800;
 }
 
 .categories small {
   color: grey;
-  font-weight: 800;
   font-size: 20px;
+  font-weight: 800;
 }
 
 .images-categories {
+  display: flex;
+  flex-wrap: wrap;
   margin: auto;
   width: 94%;
-  flex-wrap: wrap;
-  display: flex;
 }
 
 .card-title {
-  font-weight: 800;
   color: white;
-  margin: 20px 30px;
   font-size: 60px;
+  font-weight: 800;
+  margin: 20px 30px;
 }
 
 .card-small {
-  font-weight: 600;
   color: white;
-  margin: 20px 30px;
   font-size: 20px;
+  font-weight: 600;
+  margin: 20px 30px;
 }
 
 .category-card-0 {
-  width: 430px;
-  height: 400px;
   background-color: #cccccc;
   background-image: url('images/plants.png');
   background-position: center;
   background-repeat: no-repeat;
-  flex-grow: 0;
   background-size: 150%;
+  flex-grow: 0;
+  height: 400px;
   margin: 10px;
+  width: 430px;
 }
 
 .category-card-1 {
@@ -96,50 +96,50 @@ body {
   background-image: url('images/2people.png');
   background-position: center;
   background-repeat: no-repeat;
-  flex-grow: 4;
   background-size: 150%;
+  flex-grow: 4;
   margin: 10px;
 }
 
 .category-card-2 {
+  align-items: baseline;
   background-color: #cccccc;
   background-image: url('images/explosion.png');
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 172%;
   display: flex;
   flex-direction: column;
-  align-items: baseline;
-  justify-content: center;
   flex-grow: 4;
-  background-size: 172%;
-  width: 100%;
   height: 400px;
+  justify-content: center;
   margin: 10px;
+  width: 100%;
 }
 
 .category-card-3 {
+  align-items: flex-end;
   background-color: #cccccc;
   background-image: url('images/carro.png');
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 120%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   flex-grow: 4;
-  background-size: 120%;
   margin: 10px;
 }
 
 .category-card-4 {
-  width: 400px;
-  height: 400px;
   background-color: #cccccc;
   background-image: url('images/ultima.png');
   background-position: center;
   background-repeat: no-repeat;
-  flex-grow: 0;
   background-size: 170%;
+  flex-grow: 0;
+  height: 400px;
   margin: 5px;
+  width: 400px;
 }
 
 .plans {
@@ -150,34 +150,34 @@ body {
 }
 
 .title-plan {
-  font-weight: 800;
-  font-size: 65px;
   color: rgb(41, 40, 40);
+  font-size: 65px;
+  font-weight: 800;
 }
 
 .p-plan {
-  font-weight: 800;
-  font-size: 21px;
   color: rgb(41, 40, 40);
+  font-size: 21px;
+  font-weight: 800;
 }
 
 .titles-plan {
   float: left;
-  padding: 2px;
   margin: 70px 10px -50px 90px;
+  padding: 2px;
 }
 
 /* // INICIO CSS PARA ÁREA DE PLANOS!!  */
 
 .container-main-plans {
-  margin: auto;
-  width: 97%;
+  align-content: flex-start;
+  align-items: flex-end;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  align-content: flex-start;
-  align-items: flex-end;
+  margin: auto;
+  width: 97%;
 }
 
 .container-plans {
@@ -188,31 +188,31 @@ body {
 }
 
 .header-plans {
+  align-content: flex-start;
+  align-items: center;
   background-color: rgb(0, 84, 153);
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  align-content: flex-start;
-  align-items: center;
 }
 
 .footer-plans {
+  align-content: flex-start;
+  align-items: center;
   background-color: rgb(0, 136, 237);
-  text-align: center;
-  height: 30%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  height: 30%;
   justify-content: flex-end;
-  align-content: flex-start;
-  align-items: center;
+  text-align: center;
 }
 
 .price {
+  color: white;
   font-size: 45px;
   font-weight: 800;
-  color: white;
 }
 
 .price-small {
