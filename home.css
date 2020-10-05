@@ -4,32 +4,107 @@ body {
   padding: 0;
 }
 
-.container-fluid {
+.container-logos {
+  align-items: center;
   background-color: #cccccc;
   background-image: url('images/nav-bar-logo.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
-  width: 100%;
-}
-
-.container-logos {
-  align-items: center;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  width: 100%;
+  height: 600px;
   justify-content: space-around;
-  margin: auto;
-  width: 70%;
 }
 
-.container-fluid h1 {
+.logo {
+  padding: 10px;
+  width: 200px;
+}
+
+.container-logos h1 {
   color: white;
-  font-size: 80px;
+  width: 43%;
+  font-size: 50px;
   font-weight: 900;
   text-align: center;
 }
 
 .btn-seenow {
   padding: 15px 90px;
+  margin-bottom: 40px;
+  text-decoration: none;
+  border: none;
+  font-weight: 800;
+}
+
+.images-categories {
+  margin: auto;
+  width: 90%;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.card-title {
+  font-weight: 800;
+}
+
+.card-small {
+  font-weight: 600;
+}
+
+.category-card-0 {
+  width: 400px;
+  height: 400px;
+  background-color: #cccccc;
+  background-image: url('images/plants.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-grow: 0;
+  background-size: 150%;
+  margin: 10px;
+}
+
+.category-card-1 {
+  background-color: #cccccc;
+  background-image: url('images/2people.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-grow: 4;
+  background-size: 150%;
+  margin: 10px;
+}
+
+.category-card-2 {
+  background-color: #cccccc;
+  background-image: url('images/explosion.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-grow: 4;
+  background-size: 172%;
+  width: 100%;
+  height: 400px;
+  margin: 10px;
+}
+
+.category-card-3 {
+  background-color: #cccccc;
+  background-image: url('images/carro.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-grow: 4;
+  background-size: 120%;
+  margin: 10px;
+}
+
+.category-card-4 {
+  width: 400px;
+  height: 400px;
+  background-color: #cccccc;
+  background-image: url('images/ultima.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-grow: 0;
+  background-size: 170%;
+  margin: 5px;
 }
